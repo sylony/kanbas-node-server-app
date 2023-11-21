@@ -165,7 +165,7 @@ function Lab5(app) {
   const hello = (req, res) => {
     res.send("Welcome to Lab 5!");
   };
-  // http://localhost:4000/a5/calculator?a=1&b=2&operation=add
+  // https://kanbas44.onrender.com/a5/calculator?a=1&b=2&operation=add
   app.get("/a5/calculator", (req, res) => {
     const { a, b, operation } = req.query;
     let result = 0;
